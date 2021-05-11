@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CabDriver
 {
+    /// <summary>
+    /// Custom exception for cab invoice program
+    /// </summary>
     public class CabInvoiceException : Exception
     {
         // Enum for defining different type of custom exception       

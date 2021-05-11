@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace CabDriver
 {
+    /// <summary>
+    /// Ride class to set data for particular ride. 
+    /// </summary>
     public class Ride
     {
         //Creating Variables

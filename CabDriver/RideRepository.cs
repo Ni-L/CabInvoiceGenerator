@@ -6,34 +6,34 @@ using System.Threading.Tasks;
 
 namespace CabDriver
 {
-     public  class RideType
+     public  class RideRepository
     {
         //Dictionary to store UserId and Rides int List.
         Dictionary<string, List<Ride>> userRides = null;
-
-        /// <summary>
-        /// Initializes a new instance of the <see cref="RideRepository"/> class.
-        /// </summary>
-        public RideType()
+        /// Initializes a new instance of the  class.
+       // for getting element
+        public RideRepository()
         {
             this.userRides = new Dictionary<string, List<Ride>>();
         }
 
-        /// <summary>
-        /// Adds ride of a customer in list and then to a dictionary with user id as a key.
-        /// </summary>
-        /// <param name="userId">The user identifier.</param>
-        /// <param name="rides">The rides array with datatype ride</param>
-        /// <exception cref="CabInvoiceDay23.CabInvoiceException">Rides are null</exception>
+        //Adding Method AddRide
+        // Adding ride of a customer in list and then to a dictionary with user id as a key.
         public void AddRide(string userId, Ride[] rides)
         {
+            //Boolean variable for ridelist
             bool rideList = this.userRides.ContainsKey(userId);
             try
             {
+                //If there is not ridelist 
                 if (!rideList)
                 {
+                    //Creating list of having name list 
+                    //creating list of class ride
                     List<Ride> list = new List<Ride>();
+                    //Adds collection of element in list
                     list.AddRange(rides);
+                    //getting D
                     this.userRides.Add(userId, list);
                 }
             }
@@ -43,12 +43,9 @@ namespace CabDriver
             }
         }
 
-        /// <summary>
-        /// Gets the rides for specific user id.
-        /// </summary>
-        /// <param name="userId">The user identifier.</param>
-        /// <returns> retruns the array of all the rides of user in form of array</returns>
-        /// <exception cref="CabInvoiceDay23.CabInvoiceException">Invalid User id</exception>
+        // Gets the rides for specific user id.     
+        //The user identifier userID
+        //retruns the array of all the rides of user in form of array
         public Ride[] GetRides(string userId)
         {
             try
