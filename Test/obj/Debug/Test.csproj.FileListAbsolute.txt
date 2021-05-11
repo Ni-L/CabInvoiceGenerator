@@ -1,0 +1,17 @@
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Test.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Test.pdb
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\CabDriver.exe
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\CabDriver.pdb
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\CabDriver.exe.config
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Aniket\source\repos\CabDriver\Test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Aniket\source\repos\CabDriver\Test\obj\Debug\Test.csprojAssemblyReference.cache
+C:\Users\Aniket\source\repos\CabDriver\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+C:\Users\Aniket\source\repos\CabDriver\Test\obj\Debug\Test.csproj.CopyComplete
+C:\Users\Aniket\source\repos\CabDriver\Test\obj\Debug\Test.dll
+C:\Users\Aniket\source\repos\CabDriver\Test\obj\Debug\Test.pdb
